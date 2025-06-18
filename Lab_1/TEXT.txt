@@ -1,0 +1,29 @@
+Lab No. 1 – Creating Machine Learning Lab Environment
+
+Requirements:
+Anaconda installed
+Internet connection
+Python version 3.7 (compatible with most ML libraries)
+Jupyter Notebook
+
+ Steps to Create ML Lab Environment:
+✅ Step 1: Open Anaconda Prompt
+✅ Step 2: Create Virtual Environment
+
+conda create --name ML_LAB python=3.7
+🔹 This command creates a new conda environment named ML_LAB with Python version 3.7.
+
+✅ Step 3: Activate the Environment
+
+conda activate ML_LAB
+🔹 Switches to the newly created environment so all installations are isolated inside it.
+
+✅ Step 4: Install Required Libraries
+
+pip install numpy pandas matplotlib scikit-learn tensorflow keras jupyter
+🔹 Installs all necessary Machine Learning and Data Science libraries.
+
+✅ Step 5: Launch Jupyter Notebook in Specific Folder
+
+jupyter notebook --notebook-dir="G:\8TH SEMESTER\MACHINE_LEARNING(T+L)\LAB_ML"
+🔹 Opens Jupyter in the given folder for saving and running notebooks.
