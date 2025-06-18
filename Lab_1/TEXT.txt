@@ -26,4 +26,5 @@ pip install numpy pandas matplotlib scikit-learn tensorflow keras jupyter
 ✅ Step 5: Launch Jupyter Notebook in Specific Folder
 
 jupyter notebook --notebook-dir="G:\8TH SEMESTER\MACHINE_LEARNING(T+L)\LAB_ML"
+jupyter notebook --notebook-dir="G:\8TH SEMESTER\MahaviaKhan_ML"
 🔹 Opens Jupyter in the given folder for saving and running notebooks.
